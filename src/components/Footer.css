@@ -1,0 +1,82 @@
+.footer{
+    margin: 2.5rem 0px 0px;
+    height: 20rem;
+    background-color: #84a29f;
+    display: flex;
+}
+.footer-l{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.footer-r{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.footer-l-text{
+    width: 50%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+}
+.footer-logo{
+    height: 3.5rem;
+}
+.footer-social-icons{
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+.f-si-btn{
+    background-color: rgba(0,0,0,0);
+    border: 2px solid white;
+    border-radius: 100%;
+    width: 2.3rem;
+    font-size: 1.1rem;
+    color: white;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+}
+.footer-links{
+    margin: 0px;
+    cursor: pointer;
+}
+
+.footer-d{
+    height: fit-content;
+    margin: 0px;
+    background-color: #84a29f;
+    padding: 0px 30px 1rem;
+}
+.footer-d-text{
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    font-size: 1.2rem;
+}
+.footer-hr{
+    margin: 0px;
+}
+
+@media screen and (max-width: 480px) {
+    .footer-l{
+        width: 70%;
+    }
+    .footer-r{
+        width: 30%
+    }
+    .footer-l-text{
+        width: 85%;
+        
+    }
+}

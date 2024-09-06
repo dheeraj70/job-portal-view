@@ -1,0 +1,244 @@
+.hero{
+    position: relative;
+    top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.hero1{
+    display: flex;
+}
+.hero-left{
+    
+    width: 55%;
+    height: 85vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.hero-right{
+
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero-head{
+    font-size: 2.5rem;
+    margin: 0px;
+    font-weight: 500;
+}
+.hero-tag{
+    margin: 0px;
+    font-size: 0.9rem;
+}
+.hero-query{
+    border: 2px solid #84a29f;
+    height: 3rem;
+    border-radius: 10px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 95%;
+    display: flex;
+    padding: 0.5rem;
+}
+.hero-pic{
+    width: 70%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.hero-query-vr{
+    height: 100%;
+    width: 0px;
+    border: 1px solid #84a29f;
+    margin:0px 1%;
+}
+.hero-query-inp{
+    width: 80%;
+    height: 60%;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #5b706e;
+}
+.hero-query-inp:focus{
+    outline: none;
+}
+.hero-query-l{
+width: 37%;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+.hero-query-m{
+    width: 43%;
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+.hero-query-r{
+width: 18%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.hero-query-inp-img{
+    height: 45%;
+}
+.hero-query-search{
+    width: 85%;
+    padding: 0.2rem 0px 0.3rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid #84a29f;
+    cursor: pointer;
+    color: #5b706e;
+}
+.hero-query-search:hover{
+    background-color: #84a29f;
+    color: white;
+}
+
+
+/* HERO 2 Css */
+
+.hero2-head{
+    font-size: 2.5rem;
+    margin: 0px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.c-catalog{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 0.33fr));
+    grid-auto-rows: 230px;
+    column-gap: 6rem;
+    row-gap: 3rem;
+    justify-content: center;
+}
+
+/* CCTI */
+.c-catalog-item{
+    all: unset;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    border: 2px solid #84a29f;
+    border-radius: 20px;
+}
+.ccti-t{
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ccti-m{
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ccti-d{
+    height: 20%;
+}
+.ccti-img{
+    height: 60%;
+}
+.ccti-no-jobs{
+    height: 50%;
+    background-color: #84a29f;
+    width: 5rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 5px;
+}
+.ccti-no-jobs-text{
+    font-size: 0.9rem;
+    margin: 0px;
+}
+.ccti-no-jobs-img{
+    height: 50%;
+}
+.ccti-head{
+font-size: 1.2rem;
+font-weight: 500;
+}
+.ccti-name{
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.ccti-va-btn{
+    background-color: rgba(0,0,0,0);
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    float: right;
+    font-weight: 500;
+}
+.ccti-va-arr{
+    color: #84a29f;
+    font-size: 1rem;
+}
+/* Hero 3 */
+.hero3{
+    margin-top: 3rem;
+    display: flex;
+}
+.hero3-l{
+    height: 25rem;
+    width: 55%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 0.5rem;
+}
+.hero3-r{
+width: 45%;
+
+height: 25rem;
+}
+.hero3-ls{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero3-img{
+    height: 100%;
+}
+
+@media screen and (max-width : 480px) {
+    .hero-left{
+    
+        width: 100%;
+        height: 60vh;
+        padding-top: 3rem;
+        justify-content: start;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero3-l{
+        width: 60%;
+        height: 15rem;
+    }
+    .hero3-r{
+        width: 40%;
+        height: 15rem;
+        display: flex;
+        align-items: center;
+        
+    }
+    .hero3-img{
+        height: 12rem;
+    }
+}
